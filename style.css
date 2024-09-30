@@ -1,0 +1,61 @@
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 4px;
+    font-size: 16px;
+    height: 70px;
+    width: 100%;
+ 
+}
+
+/* Estilo específico para el título de la cabecera */
+header h1 {
+    color: white; /* Título en blanco */
+    text-align: center; /* Centramos el texto */
+}
+
+/* Estilos para el Main */
+main {
+    margin:0 16%; /* Márgenes generales para el contenido principal */
+}
+
+/* Estilos para los títulos de sección (Bienvenidos, Recomendados, Destinos) */
+section h1 {
+    color: black;
+    text-align: left; /* Alineado a la izquierda */
+    margin-top: 40px;
+}
+
+/* Estilos para la sección Recomendados */
+article {
+    background-color: white;
+    border: 1px solid rgba(202, 202, 202, 0.99); /* Borde fino */
+    display: inline-block;
+    width: 31.66% ;/* Para que los artículos ocupen 3 columnas */
+    margin-right: 1.2%; 
+    
+}
+
+
+article h2 {
+    font-size: 14px; /* Título en pequeño */
+    margin-bottom: 10px;
+    color: black;
+}
+
+article p {
+    font-size: 12px; /* Texto en pequeño */
+    color: black;
+    margin: 0 5px; /* Pequeños márgenes a los lados del texto */
+}
+
+/* Estilos para la sección Destinos */
+#lugares {
+    width: 100%; /* Input que ocupa todo el ancho de la página */
+    padding: 10px;
+    border: 1px solid black; /* Mismo borde que las cajas */
+    margin-top: 20px;
+}
+
