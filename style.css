@@ -16,7 +16,7 @@ header {
     width: 100%;
 }
 
-/* Estilo específico para el título de la cabecera */
+/* Estilo específico para el título */
 header h1 {
     color: white; /* Título en blanco */
     text-align: center; /* Centramos el texto */
@@ -41,9 +41,14 @@ article {
     display: inline-block;
     width: 31.66% ;/* Para que los artículos ocupen 3 columnas */
     margin-right: 1.2%; 
+    margin-bottom: 20px;
     
 }
 
+img {
+    max-width: 100%; /* Para que la imagen se ajuste al tamaño del contenedor */
+    height: auto;
+}
 
 article h2 {
     font-size: 14px; /* Título en pequeño */
